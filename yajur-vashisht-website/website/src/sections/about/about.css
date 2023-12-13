@@ -1,0 +1,53 @@
+.about__container {
+    display: grid;
+    grid-template-columns: 35% 53%;
+    gap: 12%;
+}
+
+.about__portrait {
+    height: auto;
+    max-height: 10rem;
+    /* Lowered from 40rem to make the image smaller */
+    max-width: 100%;
+    /* This will constrain the width to the parent container */
+    width: auto;
+    /* Adjust width automatically based on the height to maintain aspect ratio */
+    border: 1rem solid var(--color-white);
+    transition: var(--transition);
+    object-fit: cover;
+    /* This will ensure the image covers the area of the element without stretching */
+}
+
+.about__portrait img {
+    width: 100%;
+    height: auto;
+    max-width: 30rem;
+    max-height: 45rem;
+    object-fit: cover;
+}
+
+.about__portrait:hover {
+    border-width: 0;
+}
+
+.about__cards {
+    margin: 3rem 0 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card.about__card {
+    text-align: center;
+}
+
+.about__card-icon {
+    font-size: 1.3rem;
+    color: var(--color-black);
+    border-radius: var(--border-radius-3);
+    width: fit-content;
+    margin-inline: auto;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+}
