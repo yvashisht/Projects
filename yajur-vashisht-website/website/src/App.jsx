@@ -1,29 +1,31 @@
-import NavBar from './sections/navBar/navBar';
+import NavBar from './sections/navBar/NavBar';
 import About from './sections/about/About';
 import Education from './sections/education/Education';
+import Skills from './sections/skills/Skills'
 import Certifications from './sections/certifications/Certifications';
 import Contact from './sections/contact/Contact';
 import WorkExperience from './sections/workExperience/workExperience';
 import Projects from './sections/projects/projects';
-import Footer from './sections/footer/Footer';
 import Header from './sections/header/Header';
 import FloatingNav from './sections/floatingNav/floatingNav';
+import './index.css';
 
 const App = () => {
+
     return (
-        <main>
+        <div className={App}>
             <NavBar />
             <Header />
             <About />
-            <Contact />
             <Education />
+            <Skills />
             <Certifications />
             <WorkExperience />
             <Projects />
-            <Footer />
+            <Contact />
             <FloatingNav />
-        </main>
-    )
+        </div>
+    );
 }
 
 export default App;

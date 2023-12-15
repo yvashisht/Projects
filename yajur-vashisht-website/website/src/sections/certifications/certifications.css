@@ -1,0 +1,35 @@
+#certifications {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#certifications h2 {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.certifications-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.certification-item {
+    background-color: var(--color-light);
+    border: 1px solid var(--color-border);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: left;
+    width: 300px;
+}
+
+.certification-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.certification-item p {
+    color: var(--color-text);
+    font-size: 1rem;
+}

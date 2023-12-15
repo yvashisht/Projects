@@ -1,0 +1,37 @@
+#education {
+    padding: 4rem;
+    text-align: center;
+}
+
+#education h2 {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.education-entry {
+    margin-bottom: 2rem;
+}
+
+.education-entry h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.education-entry h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.education-department,
+.education-dates {
+    color: var(--color-dark);
+    margin-bottom: 0.5rem;
+}
+
+.education-entry p {
+    color: var(--color-dark);
+    font-size: 1rem;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}

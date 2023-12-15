@@ -1,0 +1,25 @@
+#contact {
+    background-color: var(--color-light);
+    padding: 4rem 0;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#contact h2 {
+    color: var(--color-black);
+    margin-bottom: 1rem;
+}
+
+#contact a {
+    background-color: #ffffff;
+    color: var(--color-dark);
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--border-radius-1);
+    display: inline-block;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+#contact a:hover {
+    background-color: var(--color-light);
+}

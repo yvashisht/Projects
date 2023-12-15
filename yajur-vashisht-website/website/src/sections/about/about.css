@@ -1,29 +1,18 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 53%;
-    gap: 12%;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
 }
 
-.about__portrait {
-    height: auto;
-    max-height: 10rem;
-    /* Lowered from 40rem to make the image smaller */
-    max-width: 100%;
-    /* This will constrain the width to the parent container */
-    width: auto;
-    /* Adjust width automatically based on the height to maintain aspect ratio */
-    border: 1rem solid var(--color-white);
-    transition: var(--transition);
-    object-fit: cover;
-    /* This will ensure the image covers the area of the element without stretching */
-}
-
+.about__portrait,
 .about__portrait img {
     width: 100%;
+    max-width: 40rem;
     height: auto;
-    max-width: 30rem;
-    max-height: 45rem;
     object-fit: cover;
+    border: 1rem solid var(--color-white);
+    transition: var(--transition);
 }
 
 .about__portrait:hover {
@@ -50,4 +39,28 @@
     padding: 0.6rem;
     display: flex;
     align-items: center;
+    transition: var(--transition);
+}
+
+.card.about__card:hover .about__card-icon {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.card.about__card h5 {
+    margin: 1rem 0;
+}
+
+.about__right p {
+    margin-bottom: 0.8rem;
+}
+
+.about__right .btn {
+    margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .about__container {
+        grid-template-columns: 1fr;
+    }
 }
