@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-11-09T22:19:16.519Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Vu4qz2mMCI0BpXWnt2AV" version="22.1.0" type="device">
+  <diagram name="Page-1" id="i53psGWSW1SWXoic_v9u">
+    <mxGraphModel dx="984" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-3" value="Register User" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-4" value="Login User" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-5" value="Select Flight" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-6" value="Make Payment" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-7" value="Browse Flights" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-8" value="Confirm Payment" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-9" value="Confirm Flight Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-10" value="Save Data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-11" value="User Accesses Web Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="105" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-12" value="User Login using credentials (request)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="105" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-13" value="Server authenticates user login&lt;br&gt;(logic)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="105" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="105" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-15" value="&lt;b&gt;For 4 or 5 use cases, draw an UML sequence diagram&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="600" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-16" value="&lt;b&gt;Every NOUN is an Object&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LAgb6rT8yzcPt4m-JOKm-17" value="&lt;b&gt;Every VERB is a method/function&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="600" width="250" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

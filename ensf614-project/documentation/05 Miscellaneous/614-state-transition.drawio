@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2023-11-09T22:19:29.145Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="OeoBw3kSh6frAGTydC_0" version="22.1.0" type="device">
+  <diagram name="Page-1" id="fovnCzvOMF8kabrc145Y">
+    <mxGraphModel dx="984" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-1" value="Consider the various states of your software.&lt;br&gt;&lt;br&gt;Especially for complicated objects we should track&lt;br&gt;&lt;br&gt;Benefit will be for error checking/testing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-2" value="Describes the transitions between various states (state 1, state 2, etc...)&lt;br&gt;&lt;br&gt;States can be two ways&lt;br&gt;&lt;br&gt;Transition between states must be either an ACTION or a CONDITION" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-5" value="T &amp;gt; 22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDA4S_XP-AhFT6qy_NY7-3" target="uDA4S_XP-AhFT6qy_NY7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-3" value="S1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-6" value="T &amp;lt; 20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uDA4S_XP-AhFT6qy_NY7-4" target="uDA4S_XP-AhFT6qy_NY7-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="60" />
+              <mxPoint x="645" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uDA4S_XP-AhFT6qy_NY7-4" target="uDA4S_XP-AhFT6qy_NY7-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-4" value="S2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uDA4S_XP-AhFT6qy_NY7-7" target="uDA4S_XP-AhFT6qy_NY7-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uDA4S_XP-AhFT6qy_NY7-7" target="uDA4S_XP-AhFT6qy_NY7-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-7" value="S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-10" value="Class Example: Air Condition" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-11" value="State of SEAT entity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-23" value="USER cancels seat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uDA4S_XP-AhFT6qy_NY7-12" target="uDA4S_XP-AhFT6qy_NY7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-12" value="RESERVED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="460" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-18" value="USER books seat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uDA4S_XP-AhFT6qy_NY7-13" target="uDA4S_XP-AhFT6qy_NY7-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="440" />
+              <mxPoint x="765" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-13" value="OPEN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-14" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="85" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="uDA4S_XP-AhFT6qy_NY7-14" parent="1" target="uDA4S_XP-AhFT6qy_NY7-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="250" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-20" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="465" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="uDA4S_XP-AhFT6qy_NY7-20" parent="1" target="uDA4S_XP-AhFT6qy_NY7-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-25" value="State of AIRPLANE entity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-27" value="FLYING" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="630" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-29" value="PARKED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="630" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-30" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="635" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-31" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uDA4S_XP-AhFT6qy_NY7-30" target="uDA4S_XP-AhFT6qy_NY7-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDA4S_XP-AhFT6qy_NY7-33" value="MAINTENANCE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="710" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
