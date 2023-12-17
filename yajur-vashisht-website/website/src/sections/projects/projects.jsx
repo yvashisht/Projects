@@ -21,7 +21,7 @@ const projects = () => {
             title: 'ENSF 614 Final Project - Flight Reservation Website',
             description: 'Created applications using C++ and applied various software design patterns to solve design problems.',
             class: 'Advanced System Analysis and Software Design',
-            githubUrl: 'https://github.com/yvashisht/Projects/tree/main'
+            githubUrl: 'https://github.com/yvashisht/Projects.git'
         },
         {
             title: 'ENSF 608 Databases - Final Project',
@@ -33,13 +33,13 @@ const projects = () => {
             title: 'ENSF 612 Big Data - Final Project',
             description: 'Conducted big data processing and machine learning on a reddit climate change dataset using the PySpark framework.',
             class: 'Big Data',
-            githubUrl: 'https://github.com/yvashisht/Projects/tree/main'
+            githubUrl: 'https://github.com/yvashisht/Projects.git'
         },
         {
             title: 'ENSF 592 Python - Final Project',
             description: 'Implemented various Python pandas and NumPy operations on a Formula One dataset pertaining to statistics from the last three seasons (2020-2023).',
             class: 'Programming Fundamentals for Data Engineers',
-            githubUrl: 'https://github.com/yvashisht/Projects/tree/main'
+            githubUrl: 'https://github.com/yvashisht/Projects.git'
         },
         {
             title: 'ENSF 614 - C++ and Software Design Patterns Assignments',
@@ -57,19 +57,19 @@ const projects = () => {
             title: 'ENSF 608 - Databases Assignments',
             description: 'Designed and managed SQL databases, optimizing queries and designing schemas for efficiency.',
             class: 'Database Systems',
-            githubUrl: 'https://github.com/yourusername/java-class-assignments'
+            githubUrl: 'https://github.com/yvashisht/ensf608-assignments.git'
         },
         {
             title: 'ENSF 593 - Java Assignments',
             description: 'Developed several Java applications focusing on OOP principles and data structures.',
             class: 'Principles of Software Development I',
-            githubUrl: 'https://github.com/yourusername/java-class-assignments'
+            githubUrl: 'https://github.com/yvashisht/ensf593-assignments.git'
         },
         {
             title: 'ENSF 592 - Python Assignments',
             description: 'Implemented various Python scripts and applications, including data analysis with pandas and NumPy.',
             class: 'Programming Fundamentals for Data Engineers',
-            githubUrl: 'https://github.com/yourusername/java-class-assignments'
+            githubUrl: 'https://github.com/yvashisht/ensf592-assignments.git'
         },
         {
             title: 'CHE 465 - Chemical Engineering Design II',
