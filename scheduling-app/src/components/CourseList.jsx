@@ -1,11 +1,9 @@
-const CourseList = ({ courses }) => {
-    return (
-        <div>
-            {Object.entries(courses).map(([id, course]) => (
-                <p key={id}>{course.term} CS {course.number} : {course.title}</p>
-            ))}
-        </div>
-    );
-}
+import Course from "./Course";
+
+const CourseList = ({ courses }) => (
+    <div>
+        {Object.entries(courses).map(([id, course]) => <Course key={id} course={course} />)}
+    </div>
+);
 
 export default CourseList;
