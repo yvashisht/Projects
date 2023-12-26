@@ -27,14 +27,40 @@ app.get("/movies", (req, res) => {
 });
 
 app.post("/movies", (req, res) => {
-    const q = "INSERT INTO movies (`title`, `desc`, `cover`) VALUES (?)"
+    const q = "INSERT INTO movies (`title`, `desc`,`price`, `cover`) VALUES (?)"
     const values = [req.body.title,
     req.body.desc,
+    req.body.price,
     req.body.cover];
 
     db.query(q, [values], (err, data) => {
         if (err) return res.json(err)
         return res.json("movie has been created successfully.")
+    });
+});
+
+app.delete("/movies/:id", (req, res) => {
+    const movieId = req.params.id;
+    const q = "DELETE FROM movies WHERE id = ?"
+
+    db.query(q, [movieId], (err, data) => {
+        if (err) return res.json(err);
+        return res.json("movie has been deleted successfully.")
+    });
+});
+
+app.put("/movies/:id", (req, res) => {
+    const movieId = req.params.id;
+    const q = "UPDATE movies SET `title` = ?, `desc` = ?, `price` = ?, `cover` = ? WHERE id = ?";
+
+    const values = [req.body.title,
+    req.body.desc,
+    req.body.price,
+    req.body.cover]
+
+    db.query(q, [...values, movieId], (err, data) => {
+        if (err) return res.json(err);
+        return res.json("movie has been updated successfully.")
     });
 });
 

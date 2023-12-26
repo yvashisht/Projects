@@ -19,6 +19,15 @@ const Movies = () => {
         fetchAllMovies();
     }, []);
 
+    const handleDelete = async (id) => {
+        try {
+            await axios.delete("http://localhost:8800/movies/" + id)
+            window.location.reload()
+        } catch (err) {
+            console.log(err)
+        }
+    }
+
     return (
         <div>
             <h1>Yajur's Movie Shop</h1>
@@ -29,6 +38,8 @@ const Movies = () => {
                         <h2>{movie.title}</h2>
                         <p>{movie.desc}</p>
                         <span>{movie.price}</span>
+                        <button className='delete' onClick={() => handleDelete(movie.id)}>Delete</button>
+                        <button className='update'><Link to={`/update/${movie.id}`}>Update</Link></button>
                     </div>
                 ))}
             </div>
