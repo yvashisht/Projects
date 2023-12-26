@@ -30,21 +30,20 @@ const Movies = () => {
 
     return (
         <div>
-            <h1>Yajur's Movie Shop</h1>
             <div className="movies">
                 {movies.map(movie => (
                     <div className="movie" key={movie.id}>
                         {movie.cover && <img src={movie.cover} alt="" />}
                         <h2>{movie.title}</h2>
                         <p>{movie.desc}</p>
-                        <span>{movie.price}</span>
+                        <span>Price: ${movie.price}</span>
                         <button className='delete' onClick={() => handleDelete(movie.id)}>Delete</button>
                         <button className='update'><Link to={`/update/${movie.id}`}>Update</Link></button>
                     </div>
                 ))}
             </div>
             <button>
-                <Link to="add">Add new movie</Link>
+                <Link to="/add" className="add-button">Add new movie</Link>
             </button>
         </div>
     );

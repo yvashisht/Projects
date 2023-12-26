@@ -1,34 +1,70 @@
 .App {
-    height: 100vh;
     padding: 0px 100px;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
     text-align: center;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-header,
+h1 {
+    color: white;
+    margin: 0;
 }
 
 .movies {
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
+    margin-bottom: 50px;
 }
 
 .movie {
-    flex: 1;
+    flex: 0 0 calc(25% - 15px);
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 img {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 200px;
     object-fit: cover;
     background-color: rgba(1, 248, 166, 0.29);
 }
 
 .delete {
     border: none;
+    border-radius: 5px;
     padding: 3px 6px;
     background-color: white;
     cursor: pointer;
@@ -36,13 +72,34 @@ img {
     color: rgb(242, 100, 100);
 }
 
+.add-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191);
+    color: rgb(242, 100, 100);
+    border-radius: 4px;
+    text-decoration: none;
+    display: align-items;
+    transition: background-color 0.3s ease;
+    border-style: none;
+}
+
+.add-button:hover {
+    background-color: rgb(245, 191, 191);
+}
+
 .update {
     border: none;
+    border-radius: 5px;
+    text-decoration: none;
     padding: 3px 6px;
     background-color: white;
     cursor: pointer;
     border: 1px solid rgb(204, 204, 243);
     color: rgb(139, 139, 234);
+    margin-bottom: 5px;
 }
 
 .form {
@@ -64,4 +121,22 @@ img {
     color: white;
     font-weight: bold;
     cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .movie {
+        flex: 0 0 calc(33.333% - 15px);
+    }
+}
+
+@media (max-width: 900px) {
+    .movie {
+        flex: 0 0 calc(50% - 15px);
+    }
+}
+
+@media (max-width: 600px) {
+    .movie {
+        flex: 0 0 100%;
+    }
 }
