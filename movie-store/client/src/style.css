@@ -18,6 +18,7 @@ button {
     font: inherit;
     cursor: pointer;
     outline: inherit;
+    padding-bottom: 5px;
 }
 
 header {
@@ -34,35 +35,37 @@ header {
 h1 {
     color: white;
     margin: 0;
+    padding-bottom: 50px;
 }
 
 .movies {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 2px;
     margin-bottom: 50px;
 }
 
 .movie {
-    flex: 0 0 calc(25% - 15px);
+    flex: 0 0 calc(25% - 20px);
     display: flex;
     flex-direction: column;
-    gap: 10px;
     align-items: center;
     background-color: white;
     border-radius: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding-top: 5px;
+    border: 3px solid #CCCCCC;
+    margin: 5px;
 }
 
 img {
-    width: 150px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
     object-fit: cover;
     background-color: rgba(1, 248, 166, 0.29);
 }
 
 .delete {
+    margin: 5px;
     border: none;
     border-radius: 5px;
     padding: 3px 6px;
@@ -73,7 +76,6 @@ img {
 }
 
 .add-button {
-    margin-top: 10px;
     padding: 10px 20px;
     background-color: white;
     cursor: pointer;
@@ -91,6 +93,7 @@ img {
 }
 
 .update {
+    margin: 5px;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -99,7 +102,6 @@ img {
     cursor: pointer;
     border: 1px solid rgb(204, 204, 243);
     color: rgb(139, 139, 234);
-    margin-bottom: 5px;
 }
 
 .form {
