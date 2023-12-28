@@ -8,6 +8,11 @@ const projects = () => {
             githubUrl: 'https://github.com/yvashisht/Projects.git'
         },
         {
+            title: 'Movie Store',
+            description: 'Developed a movie store using React, CSS, Node, Express, Javascript, and MySQL for the backend. This project demonstrates CRUD fundamentals and displays the connectivity between frontend and backend.',
+            githubUrl: 'https://github.com/yvashisht/Projects.git'
+        },
+        {
             title: 'Class Scheduling App',
             description: 'Developed a class scheduling app using React and Firebase.',
             githubUrl: 'https://github.com/yvashisht/Projects.git'
@@ -19,7 +24,7 @@ const projects = () => {
         },
         {
             title: 'ENSF 614 Final Project - Flight Reservation Website',
-            description: 'Created applications using C++ and applied various software design patterns to solve design problems.',
+            description: 'Created a flight reservation website using React, CSS, Node, Express, Javascript, and Django. This project also incorporates design patterns and documentation.',
             class: 'Advanced System Analysis and Software Design',
             githubUrl: 'https://github.com/yvashisht/Projects.git'
         },

@@ -24,7 +24,6 @@ nav {
     color: var(--color-light);
 }
 
-
 .nav__logo img {
     width: 4rem;
     height: auto;
@@ -47,11 +46,12 @@ nav {
 .nav__menu {
     display: flex;
     gap: 3.5rem;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    flex-grow: 1;
 }
 
 #theme__icon {
