@@ -8,6 +8,11 @@ const projects = () => {
             githubUrl: 'https://github.com/yvashisht/Projects.git'
         },
         {
+            title: 'A* Path Finding Algorithim',
+            description: 'Engineered an A* algorithm visualizer, optimizing pathfinding. Translated computational theory into practical application, crafting an interactive tool to navigate graph complexities.',
+            githubUrl: 'https://github.com/yvashisht/Projects.git'
+        },
+        {
             title: 'Movie Store',
             description: 'Developed a movie store using React, CSS, Node, Express, Javascript, and MySQL for the backend. This project demonstrates CRUD fundamentals and displays the connectivity between frontend and backend.',
             githubUrl: 'https://github.com/yvashisht/Projects.git'
