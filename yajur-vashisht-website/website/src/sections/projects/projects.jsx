@@ -8,6 +8,11 @@ const projects = () => {
             githubUrl: 'https://github.com/yvashisht/Projects.git'
         },
         {
+            title: 'Autonomous Self-Driving Car using Python and NEAT',
+            description: 'Created an autonomous, self driving car that learns to navigate a track, avoiding obstacles and improving its driving skills through evolutionary neural networks.',
+            githubUrl: 'https://github.com/yvashisht/Autonomous-driving-project'
+        },
+        {
             title: 'A* Path Finding Algorithim',
             description: 'Engineered an A* algorithm visualizer, optimizing pathfinding. Translated computational theory into practical application, crafting an interactive tool to navigate graph complexities.',
             githubUrl: 'https://github.com/yvashisht/Projects.git'

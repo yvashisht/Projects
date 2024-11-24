@@ -30,9 +30,9 @@ const About = () => {
                         }
                     </div>
                     <p>
-                        I'm Yajur Vashisht, currently mastering Electrical and Computer Engineering at the University of Calgary with a Chemical Engineering backdrop from the University of Alberta, emphasizing sustainability.
-                        My expertise spans from web development to programming with Python, backed by various professional certifications.
-                        Beyond the code, my passion for motorsport drives my exploration into aerodynamics and my love for photography and travel feeds my continuous pursuit of discovery.
+                        I'm Yajur Vashisht, a Master's graduate in Electrical and Computer Engineering from the University of Calgary, with a background in Chemical Engineering from the University of Alberta, emphasizing sustainability.
+                        My expertise spans web development, Python programming, and a range of professional certifications that reflect my commitment to continuous growth and technical excellence.
+                        Beyond coding and problem-solving, I'm driven by a passion for motorsport, diving into the intricacies of aerodynamics. My love for photography and travel fuels my curiosity and inspires me to explore the world.
                     </p>
                     <p>
                         In my professional quest, I'm seeking a software engineering role that challenges my blend of programming prowess and engineering insight.

@@ -3,14 +3,36 @@ import './workExperience.css';
 const WorkExperience = () => {
     const experiences = [
         {
+            role: "Advanced Process Control Engineer",
+            company: "Shell PLC",
+            location: "Sarnia, ON",
+            period: "July 2024 - Current",
+            tasks: [
+                "Optimized process control systems using Honeywell and Foxboro technologies, enhancing efficiency and reliability through SCADA integration and real-time data analysis.",
+                "Managed and updated servers and control systems, ensuring seamless operations and high security by applying systems engineering principles and cybersecurity best practices.",
+                "Collaborated on process automation projects, utilizing PID control and advanced analytics to troubleshoot issues, improve performance, and support continuous improvement initiatives.",
+            ],
+        },
+        {
+            role: "Software Engineering Capstone Project",
+            company: "Tesla, Dojo Testing",
+            location: "Palo Alto (Remote)",
+            period: "Jan - May 2024",
+            tasks: [
+                "Spearheaded the development of a web-based database management tool for Tesla's Dojo Testing team, focusing on enhancing efficiency within internal pipelines",
+                "Employed advanced web development skills using TypeScript, Next.js, MongoDB, and Next-Auth to build a flexible, user-friendly interface for efficient data management and viewing that incorporates OAuth via Azure.",
+                "Initiated a comprehensive project to innovate Tesla’s data handling capabilities, incorporating unit and integration testing frameworks, aimed at surpassing a target of 80% test coverage.",
+            ],
+        },
+        {
             role: "Project Coordinator Co-op",
             company: "City of Edmonton, Renewable Energy Systems",
             location: "Edmonton, AB",
             period: "April – Dec 2022",
             tasks: [
-                "Assisted the Renewable Energy Section Manager in utility design and approval processes.",
-                "Engaged in design coordination, process reviews, and flowchart developments.",
-                "Monitored engineering activities to control project scope, schedule, quality, and budget.",
+                "Assisted in the utility design and development of an approval process, resulting in utility customer growth of 15%.",
+                "Fielded design coordination, reviews, and development of process flow charts.",
+                "Monitored engineering activities and worked with project teams to control scope, schedule, quality, and budget.",
             ],
         },
         {
@@ -19,9 +41,9 @@ const WorkExperience = () => {
             location: "Calgary, AB",
             period: "Jan – Aug 2021",
             tasks: [
-                "Continuous improvement projects to reduce downtime and increase running efficiency.",
-                "Planned and undertook scheduled maintenance, responding to breakdowns, diagnosing faults, and assisting in repairing equipment.",
-                "Maintaining statistical and financial records, ensuring compliance with health and safety legislation, creating maintenance procedures and PMs, and managing stocks of supplies and equipment.",
+                "Undertook continuous improvement projects to reduce downtime by 2 hrs/week and increase efficiency by 0.6%.",
+                "Revamped and coded a SharePoint system for breakdown tracking, integrating kaizen principles to boost maintenance efficiency and predictability.",
+                "Maintained statistical and financial records, ensuring compliance with health and safety legislation, creating maintenance procedures and PMs, and managing stocks of supplies and equipment.",
             ],
         },
         {
