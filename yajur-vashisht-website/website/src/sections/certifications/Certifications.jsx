@@ -10,7 +10,7 @@ const Certifications = () => {
         { title: 'Aero Design', issuer: 'MotorsportEngineer', year: '2023' },
         { title: 'PLC Software and Hardware Automation', issuer: 'Udemy', year: '2024' },
         { title: 'Product Design', issuer: 'Udacity', year: '2024' },
-        { title: 'PMP', issuer: 'PMI', year: '2024' },
+        { title: 'PMP', issuer: 'PMI', year: '2025' },
     ];
 
     return (

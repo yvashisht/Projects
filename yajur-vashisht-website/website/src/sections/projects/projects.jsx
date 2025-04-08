@@ -8,6 +8,16 @@ const projects = () => {
             githubUrl: 'https://github.com/yvashisht/Projects.git'
         },
         {
+            title: 'Wingin It!',
+            description: 'A fully parametric 3D model of a modern F1 front wing built in Autodesk Fusion 360.This project recreates the geometry of a 2022+ front wing with realistic aerodynamic styling',
+            githubUrl: 'https://github.com/yvashisht/Wingin-it'
+        },
+        {
+            title: 'Formula One - ML Telemetry Analysis Project',
+            description: 'A machine learning-based approach to analyzing F1 telemetry data for performance insights, driver comparison, and event prediction.',
+            githubUrl: 'https://github.com/yvashisht/F1-Telemetry-ML-Analysis'
+        },
+        {
             title: 'Autonomous Self-Driving Car using Python and NEAT',
             description: 'Created an autonomous, self driving car that learns to navigate a track, avoiding obstacles and improving its driving skills through evolutionary neural networks.',
             githubUrl: 'https://github.com/yvashisht/Autonomous-driving-project'
