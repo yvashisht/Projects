@@ -3,11 +3,6 @@ import './projects.css'
 const projects = () => {
     const projects = [
         {
-            title: 'This Website!',
-            description: 'Developed a personal website from scratch using React, Javascript, and CSS.',
-            githubUrl: 'https://github.com/yvashisht/Projects.git'
-        },
-        {
             title: 'Wingin It!',
             description: 'A fully parametric 3D model of a modern F1 front wing built in Autodesk Fusion 360.This project recreates the geometry of a 2022+ front wing with realistic aerodynamic styling',
             githubUrl: 'https://github.com/yvashisht/Wingin-it'
@@ -25,6 +20,11 @@ const projects = () => {
         {
             title: 'A* Path Finding Algorithim',
             description: 'Engineered an A* algorithm visualizer, optimizing pathfinding. Translated computational theory into practical application, crafting an interactive tool to navigate graph complexities.',
+            githubUrl: 'https://github.com/yvashisht/Projects.git'
+        },
+        {
+            title: 'This Website!',
+            description: 'Developed a personal website from scratch using React, Javascript, and CSS.',
             githubUrl: 'https://github.com/yvashisht/Projects.git'
         },
         {

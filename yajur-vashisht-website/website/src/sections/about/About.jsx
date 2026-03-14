@@ -30,14 +30,10 @@ const About = () => {
                         }
                     </div>
                     <p>
-                        I'm Yajur Vashisht, a Master's graduate in Electrical and Computer Engineering from the University of Calgary, with a background in Chemical Engineering from the University of Alberta, emphasizing sustainability.
-                        My expertise spans web development, Python programming, and a range of professional certifications that reflect my commitment to continuous growth and technical excellence.
-                        Beyond coding and problem-solving, I'm driven by a passion for motorsport, diving into the intricacies of aerodynamics. My love for photography and travel fuels my curiosity and inspires me to explore the world.
+                        I'm Yajur Vashisht, an engineer aiming to build a career in motorsport fuels. My background combines chemical engineering, software engineering, and engine systems, giving me a mix of chemistry, thermodynamics, data analysis, and technical problem solving. 
                     </p>
                     <p>
-                        In my professional quest, I'm seeking a software engineering role that challenges my blend of programming prowess and engineering insight.
-                        I'm keen to join a team where innovation and sustainability are at the forefront, applying my skills in coding, data analytics, and system optimization.
-                        Ready to contribute to user-centric designs and advanced technological solutions, I'm eager to connect with a team that values imaginative and solid problem-solving skills to navigate the future of technology.
+                        I'm particularly drawn to the role fuels play in engine performance, compliance, reliability, and race operations. What interests me most is the opportunity to work at the intersection of fuel chemistry, testing, regulations, and trackside performance support. I want to be part of a team where precision, preparation, and technical understanding directly contribute to performance on track.
                     </p>
                     <a href={CV} download className='btn primary'>Download Resume <HiDownload /></a>
                 </div>

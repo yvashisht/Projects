@@ -2,12 +2,13 @@ import './skills.css';
 
 const Skills = () => {
     const skills = {
-        languages: ['HTML', 'CSS', 'JavaScript', 'Python', 'Java', 'C++', 'MATLAB'],
-        frameworks: ['React', 'Node.js', 'Express', 'Django', 'Firebase'],
-        tools: ['Git', 'Docker'],
-        databases: ['MySQL', 'MongoDB', 'PostgreSQL'],
-        bigData: ['Hadoop', 'PySpark'],
-        digitalEditing: ['Adobe Photoshop', 'Adobe Lightroom', 'Sony Vegas Pro 13']
+        programming: ['Python', 'Java', 'C++', 'MATLAB', 'JavaScript'],
+        web: ['React', 'Node.js', 'Express', 'HTML', 'CSS'],
+        data: ['PySpark', 'Hadoop'],
+        tools: ['Git', 'Docker', 'Firebase'],
+        databases: ['MySQL', 'PostgreSQL', 'MongoDB'],
+        controls: ['Foxboro I/A', 'Honeywell Experion'],
+        safety: ['Industrial Fire Fighting', 'First Aid']
     };
 
     return (

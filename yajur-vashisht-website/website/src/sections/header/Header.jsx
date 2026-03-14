@@ -11,7 +11,7 @@ const Header = () => {
                 </div>
                 <h3>Yajur Vashisht</h3>
                 <p>
-                    Energized by the fast-paced world of Electrical and Computer Engineering, I’m Yajur Vashisht, an avid tech enthusiast with a sustainable twist and a passion for the adrenaline of motorsport. When not immersed in tech, I'm capturing life through a lens or plotting my next adventurous escape.
+                    I'm Yajur Vashisht, an engineer with a background in chemical engineering, software engineering, and engine systems. At Shell, I currently support downstream fuels blending and work with SCADA systems, NIR modelling, and PID control. My true passion lies in motorsport fuels, where I want to contribute to the research and development of sustainable fuels for high performance environments.
                 </p>
                 <div className="header__cta">
                     <a href="#contact" className='btn primary'>Let's Talk</a>

@@ -8,13 +8,14 @@ const WorkExperience = () => {
             location: "Sarnia, ON",
             period: "July 2024 - Current",
             tasks: [
-                "Optimized process control systems using Honeywell and Foxboro technologies, enhancing efficiency and reliability through SCADA integration and real-time data analysis.",
-                "Managed and updated servers and control systems, ensuring seamless operations and high security by applying systems engineering principles and cybersecurity best practices.",
-                "Collaborated on process automation projects, utilizing PID control and advanced analytics to troubleshoot issues, improve performance, and support continuous improvement initiatives.",
+                "Develop control strategies (PID and multi variable control) across crude distillation, catalytic cracking, and hydro-treating units to consistently meet safety and regulatory requirements.",
+                "Liaise with lab chemists and operations to convert test data into automation changes that improve refining margin.",
+                "Lead spectral modeling and fuels blending to meet performance and regulatory specs.",
+                "Utilize real time unit data to create simulations via SCADA tools to continually improve site wide reliability."
             ],
         },
         {
-            role: "Software Engineering Capstone Project",
+            role: "Master's Applied Research Project",
             company: "Tesla, Dojo Testing",
             location: "Palo Alto (Remote)",
             period: "Jan - May 2024",
@@ -22,6 +23,17 @@ const WorkExperience = () => {
                 "Spearheaded the development of a web-based database management tool for Tesla's Dojo Testing team, focusing on enhancing efficiency within internal pipelines",
                 "Employed advanced web development skills using TypeScript, Next.js, MongoDB, and Next-Auth to build a flexible, user-friendly interface for efficient data management and viewing that incorporates OAuth via Azure.",
                 "Initiated a comprehensive project to innovate Tesla’s data handling capabilities, incorporating unit and integration testing frameworks, aimed at surpassing a target of 80% test coverage.",
+            ],
+        },
+        {
+            role: "Marketing Coordinator",
+            company: "Brookfield Residential",
+            location: "Edmonton, AB",
+            period: "Jan 2023 - Jul 2024",
+            tasks: [
+                "Coordinated customer tours and on site demos.",
+                "Produced agendas, talking points, and social media posts for brand events.",
+                "Managed full event logistics including venues, vendors, and shipping of materials."
             ],
         },
         {
